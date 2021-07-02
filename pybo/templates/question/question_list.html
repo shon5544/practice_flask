@@ -8,6 +8,7 @@
     <link rel=stylesheet href="{{ url_for('static', filename='bootstrap.min.css') }}">
 </head>
 <body>
+    <!-- 번호 = 전체 게시물 개수 - (현재 페이지 - 1) * 페이지당 게시물 개수 - 나열 인덱스 -->
     {% extends 'base.html' %}
     {% block content %}
     <div class="container my-3">
